@@ -1,0 +1,18 @@
+{
+  "short_name": "AI",
+  "name": "Listingslab AI",
+  "description": "A very intelligent PWA",
+  "id": "/?pwa",
+  "start_url": "/?pwa",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "standalone",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -5,7 +5,8 @@ import "./chatGPT.css"
 export function ChatGPT() {
   console.log("@ChatGPT", pJSON.version)
   return (<>
-      ChatGPT
+      <h1>Listingslab ChatGPT</h1>
+      <h2>A very intelligent PWA</h2>
     </>
   )
 }

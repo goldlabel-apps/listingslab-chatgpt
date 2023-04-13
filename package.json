@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt",
+  "name": "listingslab-chatgpt",
   "version": "1.0.0",
   "description": "ChatGPT vs Recruitment Technical Tests",
   "main": "index.js",

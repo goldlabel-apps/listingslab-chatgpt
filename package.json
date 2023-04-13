@@ -1,14 +1,14 @@
 {
   "name": "listingslab-chatgpt",
-  "version": "1.0.0",
-  "description": "ChatGPT vs Recruitment Technical Tests",
+  "description": "A very intelligent PWA",
   "main": "index.js",
   "scripts": {
     "start": "clear && cd ./pwa && npm start",
     "test": "echo \"LGTM\" && exit 0"
   },
   "keywords": [
-    "chatgpt"
+    "chatgpt",
+    "pwa"
   ],
   "author": "@listingslab",
   "license": "MIT"

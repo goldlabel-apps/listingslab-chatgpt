@@ -1,4 +1,6 @@
-## ChatGPT vs Recruitment Technical Tests
+## ChatGPT
+
+### Capter 1) ChatGPT vs Recruitment Technical Tests
 
 #### Overview
 

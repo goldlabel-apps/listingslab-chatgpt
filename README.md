@@ -11,3 +11,11 @@ I mean, it’s not like I’m being paid for it is it?
  Now, in May 2023 we witness the emergence of ChatGPT. Much hype around its ability to answer questions in natural language. That’s nothing compared to how well it writes code. Better code than I do. And faster. So with a specific kind of test (eg testdome), I think I could use ChatGPT to complete the coding test quicker and better than I could do myself. So I think I’ll do that.
 
 Is that cheating? Or is it just doing my job?
+
+#### Scientific Methodology
+
+We’re old skool, so we do things the scientific way. We start with a hypothesis, test it and present it in a way which can be replicated with the same results by peer reviewers
+
+#### Hypothesis
+
+That ChatGPT will score higher in an online recruitment test than I would myself. And with much less time and effort

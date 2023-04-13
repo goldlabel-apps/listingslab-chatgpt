@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512">
-    <title>Listingslab AI</title>
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="icon" fill-rule="nonzero">
             <g id="punk" transform="translate(123.000000, 86.000000)">
                 <path d="M60.613515,171.703179 C62.4191186,179.826057 63.4220416,188.843984 63.4220416,198.338935 C63.4220416,234.051611 49.225376,263 31.7118764,263 C14.1983769,263 0,234.051611 0,198.338935 C0,156.467097 28.6996847,171.703179 60.613515,171.703179 Z M206.384773,171.703179 C204.582594,179.826057 203.577958,188.843984 203.577958,198.338935 C203.577958,234.051611 217.774624,263 235.289835,263 C252.803335,263 267,234.051611 267,198.338935 C267,156.467097 238.300315,171.703179 206.384773,171.703179 L206.384773,171.703179 Z" id="Fill-41" fill="#F49A6A"></path>

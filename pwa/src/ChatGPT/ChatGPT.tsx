@@ -3,7 +3,6 @@ import pJSON from "../../package.json"
 import {
   CardHeader,
   Container,
-  Typography,
 } from "@mui/material"
 import "./chatGPT.css"
 

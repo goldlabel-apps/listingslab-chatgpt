@@ -1,12 +1,21 @@
 import React from "react"
 import pJSON from "../../package.json"
+import {
+  CardHeader,
+  Container,
+  Typography,
+} from "@mui/material"
 import "./chatGPT.css"
 
 export function ChatGPT() {
   console.log("@", pJSON.version)
   return (<>
-      <h1>Listingslab AI</h1>
-      <h2>A very intelligent PWA</h2>
+    <Container maxWidth="md">
+      <CardHeader 
+        title="Listingslab AI"
+        subheader="A very intelligent PWA"
+      />
+    </Container>
     </>
   )
 }

@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt",
+  "version": "1.0.0",
+  "description": "ChatGPT vs Recruitment Technical Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"LGTM\" && exit 0"
+  },
+  "keywords": [
+    "chatgpt"
+  ],
+  "author": "@listingslab",
+  "license": "MIT"
+}

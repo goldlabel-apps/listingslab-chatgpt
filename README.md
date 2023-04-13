@@ -14,7 +14,7 @@ Is that cheating? Or is it just doing my job?
 
 #### Scientific Methodology
 
-We’re old skool, so we do things the scientific way. We start with a hypothesis, test it and present it in a way which can be replicated with the same results by peer reviewers
+We’re old skool, so we do things the scientific way. Start with a hypothesis, we test it and present it in a way which can be replicated with the same results by any peer reviewer
 
 #### Hypothesis
 

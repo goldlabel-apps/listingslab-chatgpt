@@ -1,7 +1,6 @@
 {
   "name": "listingslab-chatgpt",
   "description": "A very intelligent PWA",
-  "main": "index.js",
   "scripts": {
     "start": "clear && cd ./pwa && npm start",
     "test": "echo \"LGTM\" && exit 0"

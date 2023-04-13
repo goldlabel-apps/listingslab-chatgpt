@@ -49,19 +49,19 @@ a {
   color: none;
 }
 
-/* @font-face {
+@font-face {
   font-family: "GothamBlack";
-  src: url("./fonts/gotham/GothamBlack.otf");
+  src: url("./gotham/GothamBlack.otf");
 }
 @font-face {
   font-family: "GothamBold";
-  src: url("./fonts/gotham/GothamBold.otf");
+  src: url("./gotham/GothamBold.otf");
 }
 @font-face {
   font-family: "GothamLight";
-  src: url("./fonts/gotham/GothamLight.otf");
+  src: url("./gotham/GothamLight.otf");
 }
 @font-face {
   font-family: "GothamThin";
-  src: url("./fonts/gotham/GothamThin.otf");
-} */
+  src: url("./gotham/GothamThin.otf");
+}

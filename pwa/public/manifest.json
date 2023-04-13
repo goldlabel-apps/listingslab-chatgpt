@@ -4,8 +4,8 @@
   "description": "A very intelligent PWA",
   "id": "/?pwa",
   "start_url": "/?pwa",
-  "theme_color": "#000",
-  "background_color": "#000",
+  "theme_color": "#489FD8",
+  "background_color": "#265874",
   "display": "standalone",
   "scope": "/",
   "icons": [

@@ -1,6 +1,6 @@
-## ChatGPT
+## Listingslab AI
 
-### Capter 1) ChatGPT vs Recruitment Technical Tests
+> ChatGPT vs Recruitment Technical Tests
 
 #### Overview
 

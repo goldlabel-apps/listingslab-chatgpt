@@ -6,13 +6,16 @@ import {
   CssBaseline,
   PaletteMode,
   IconButton,
-  Avatar,
+  CardContent,
   Card,
   CardHeader,
   Container,
 } from "@mui/material"
 import "./chatGPT.css"
-import {Icon} from "../@listingslab"
+import {
+  Icon,
+  InputMultiline,
+} from "../@listingslab"
 
 export const makeTheme = (
   mode: PaletteMode, 
@@ -64,7 +67,7 @@ export function ChatGPT() {
         <Container maxWidth="md">
           <Card sx={{mt:1}}>
             <CardHeader 
-              avatar={<Avatar src="/icon.svg" />}
+              
               title="Listingslab AI"
               subheader="A very intelligent PWA"
               action={<>
@@ -77,6 +80,9 @@ export function ChatGPT() {
                   <Icon icon="github" />
                 </IconButton></>}
             />
+            <CardContent>
+              <InputMultiline />
+            </CardContent>
           </Card>
         </Container>
       </ThemeProvider>

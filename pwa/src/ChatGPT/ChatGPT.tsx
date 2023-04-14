@@ -1,18 +1,22 @@
-import React from "react"
-import pJSON from "../../package.json"
+import React from "react" 
+import "../@listingslab/fonts/quicksand.css"
 import {
   createTheme,
   ThemeProvider,
   CssBaseline,
   PaletteMode,
   IconButton,
-  Avatar,
+  CardContent,
   Card,
   CardHeader,
   Container,
 } from "@mui/material"
 import "./chatGPT.css"
-import {Icon} from "../@listingslab"
+import {
+  Icon,
+  Font,
+} from "../@listingslab"
+
 
 export const makeTheme = (
   mode: PaletteMode, 
@@ -57,16 +61,18 @@ export function ChatGPT() {
   // React.useEffect(() => {
   // }, [])
 
-
   return (<>
       <ThemeProvider theme={t}>
         <CssBaseline />
         <Container maxWidth="md">
           <Card sx={{mt:1}}>
-            <CardHeader 
-              avatar={<Avatar src="/icon.svg" />}
-              title="Listingslab AI"
-              subheader="A very intelligent PWA"
+            <CardHeader
+              title={<Font variant="title">
+                      LISTINGSLAB A.I.
+                    </Font>}
+              subheader={<Font variant="subheader">
+                      A very intelligent PWA
+                        </Font>}
               action={<>
                 <IconButton
                   color="inherit"
@@ -77,6 +83,9 @@ export function ChatGPT() {
                   <Icon icon="github" />
                 </IconButton></>}
             />
+            <CardContent>
+              
+            </CardContent>
           </Card>
         </Container>
       </ThemeProvider>

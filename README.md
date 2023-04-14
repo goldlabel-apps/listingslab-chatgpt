@@ -4,7 +4,7 @@
 
 #### Overview
 
-As a software engineer it’s normal for me to be asked to complete some kind of technical test during a recruitment process. There are many different methods, approaches and mistakes, but there’s value too. As the process has developed, better tools for analysing candidate skills have emerged. Let’s take as an example; testdome.com. It’s a platform on which a hiring manager can create in depth tests which really do measure a candidate’s knowledge in the areas they are interested in
+As a software engineer looking for a job it’s normal to be asked to complete some kind of technical test during the recruitment process. There are many different methods, approaches and mistakes, but there’s value too. As the process has developed, better tools for analysing candidate skills have emerged. Let’s take as an example; testdome.com. It’s a platform on which a hiring manager can create in depth tests which really do measure a candidate’s knowledge in the areas they are interested in
 
 Trouble is… when I’m looking for a job I’m generally talking to 2 or three different companies at once, so if they all give me big, difficult tech tests I get a bit over it. 
 

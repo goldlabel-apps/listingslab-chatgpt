@@ -15,6 +15,7 @@ import "./chatGPT.css"
 import {
   Icon,
   Font,
+  AppShell,
 } from "../@listingslab"
 
 
@@ -64,30 +65,32 @@ export function ChatGPT() {
   return (<>
       <ThemeProvider theme={t}>
         <CssBaseline />
-        <Container maxWidth="md">
-          <Card sx={{mt:1}}>
-            <CardHeader
-              title={<Font variant="title">
-                      LISTINGSLAB A.I.
-                    </Font>}
-              subheader={<Font variant="subheader">
-                      A very intelligent PWA
-                        </Font>}
-              action={<>
-                <IconButton
-                  color="inherit"
-                  onClick={(e: React.MouseEvent) => {
-                    e.preventDefault()
-                    window.open("https://github.com/listingslab-software/listingslab-chatgpt", "_blank")
-                  }}>
-                  <Icon icon="github" />
-                </IconButton></>}
-            />
-            <CardContent>
-              
-            </CardContent>
-          </Card>
-        </Container>
+        <AppShell>
+          <Container maxWidth="md">
+            <Card sx={{mt:1}}>
+              <CardHeader
+                title={<Font variant="title">
+                        LISTINGSLAB A.I.
+                      </Font>}
+                subheader={<Font variant="subheader">
+                        A very intelligent PWA
+                          </Font>}
+                action={<>
+                  <IconButton
+                    color="inherit"
+                    onClick={(e: React.MouseEvent) => {
+                      e.preventDefault()
+                      window.open("https://github.com/listingslab-software/listingslab-chatgpt", "_blank")
+                    }}>
+                    <Icon icon="github" />
+                  </IconButton></>}
+              />
+              <CardContent>
+                
+              </CardContent>
+            </Card>
+          </Container>
+        </AppShell>
       </ThemeProvider>
     </>
   )

@@ -6,6 +6,15 @@ export type PWAShape = {
     theme: ThemeShape
 }
 
+export type DataShape = {
+    data?: any
+}
+
+export type DocumentShape = {
+    title?: string
+    body?: string
+}
+
 export type FontShape = {
     variant?: string
     fontSize?: string | number

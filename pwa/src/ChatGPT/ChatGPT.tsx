@@ -16,8 +16,9 @@ import {
   Icon,
   Font,
   AppShell,
+  Document,
 } from "../@listingslab"
-
+import {document} from "./document"
 
 export const makeTheme = (
   mode: PaletteMode, 
@@ -86,7 +87,7 @@ export function ChatGPT() {
                   </IconButton></>}
               />
               <CardContent>
-                
+                <Document data={document} />
               </CardContent>
             </Card>
           </Container>

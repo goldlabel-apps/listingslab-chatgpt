@@ -1,5 +1,6 @@
 import React from "react"
-import pJSON from "../../package.json"
+
+ 
 import {
   createTheme,
   ThemeProvider,

@@ -1,9 +1,12 @@
 import * as React from "react"
 import {DataShape} from "../types"
 import {
-  Box,
+  CardHeader,
   Card,
+  CardMedia,
+  CardContent,
 } from "@mui/material"
+import {Font} from "../../@listingslab"
 
 export default function Document(props: DataShape) {
     const {data} = props
@@ -11,11 +14,21 @@ export default function Document(props: DataShape) {
     const {
         title,
         body,
+        image,
+        description,
     } = data
     return (<>
             <Card>
-                {title}
-                {body}
+                <CardHeader 
+                    title={<Font>{title}</Font>} 
+                    subheader={<Font>{description}</Font>} 
+                />
+                <CardMedia src={image} component={"img"}/>
+                <CardContent>
+                    <Font>
+                        <span dangerouslySetInnerHTML={{__html: body}} />
+                    </Font>
+                </CardContent>
             </Card>
         </>
     )

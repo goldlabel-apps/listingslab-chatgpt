@@ -6,10 +6,11 @@ import {
   CssBaseline,
   PaletteMode,
   IconButton,
-  CardContent,
+  Avatar,
   Card,
   CardHeader,
   Container,
+  Grid,
 } from "@mui/material"
 import "./chatGPT.css"
 import {
@@ -67,29 +68,39 @@ export function ChatGPT() {
       <ThemeProvider theme={t}>
         <CssBaseline />
         <AppShell>
-          <Container maxWidth="md">
-            <Card sx={{mt:1}}>
-              <CardHeader
-                title={<Font variant="title">
-                        LISTINGSLAB A.I.
-                      </Font>}
-                subheader={<Font variant="subheader">
-                        A very intelligent PWA
+          <Container maxWidth="md" sx={{mb:"100px"}}>
+            <Grid container spacing={1}>
+              <Grid item xs={12}>
+                <Card sx={{mt:1}}>
+                  <CardHeader
+                    avatar={<Avatar src="./icon.svg" alt="ChatGTP" />}
+                    title={<Font>
+                            LISTINGSLAB A.I.
                           </Font>}
-                action={<>
-                  <IconButton
-                    color="inherit"
-                    onClick={(e: React.MouseEvent) => {
-                      e.preventDefault()
-                      window.open("https://github.com/listingslab-software/listingslab-chatgpt", "_blank")
-                    }}>
-                    <Icon icon="github" />
-                  </IconButton></>}
-              />
-              <CardContent>
+                    subheader={<Font>
+                            A very intelligent PWA
+                              </Font>}
+                    action={<>
+                      <IconButton
+                        color="inherit"
+                        onClick={(e: React.MouseEvent) => {
+                          e.preventDefault()
+                          window.open("https://github.com/listingslab-software/listingslab-chatgpt", "_blank")
+                        }}>
+                        <Icon icon="github" />
+                      </IconButton></>}
+                  />
+                </Card>
+              </Grid>
+              <Grid item xs={12} md={8}>
                 <Document data={document} />
-              </CardContent>
-            </Card>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                Sidebar
+              </Grid>
+            </Grid>
+
+
           </Container>
         </AppShell>
       </ThemeProvider>

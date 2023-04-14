@@ -1,3 +1,10 @@
+export type DocumentShape = {
+    title?: string
+    body?: string
+    image?: string
+    description?: string
+}
+
 export type PWAShape = {
     title: string
     description: string
@@ -6,14 +13,6 @@ export type PWAShape = {
     theme: ThemeShape
 }
 
-export type DataShape = {
-    data?: any
-}
-
-export type DocumentShape = {
-    title?: string
-    body?: string
-}
 
 export type FontShape = {
     variant?: string
@@ -35,3 +34,6 @@ export interface KeyValueShape {
     value: any
 }
 
+export type DataShape = {
+    data?: any
+}

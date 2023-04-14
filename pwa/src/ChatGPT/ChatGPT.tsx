@@ -1,6 +1,5 @@
-import React from "react"
-
- 
+import React from "react" 
+import "../@listingslab/fonts/quicksand.css"
 import {
   createTheme,
   ThemeProvider,
@@ -15,8 +14,9 @@ import {
 import "./chatGPT.css"
 import {
   Icon,
-  InputMultiline,
+  Font,
 } from "../@listingslab"
+
 
 export const makeTheme = (
   mode: PaletteMode, 
@@ -61,16 +61,18 @@ export function ChatGPT() {
   // React.useEffect(() => {
   // }, [])
 
-
   return (<>
       <ThemeProvider theme={t}>
         <CssBaseline />
         <Container maxWidth="md">
           <Card sx={{mt:1}}>
-            <CardHeader 
-              
-              title="Listingslab AI"
-              subheader="A very intelligent PWA"
+            <CardHeader
+              title={<Font variant="title">
+                      LISTINGSLAB A.I.
+                    </Font>}
+              subheader={<Font variant="subheader">
+                      A very intelligent PWA
+                        </Font>}
               action={<>
                 <IconButton
                   color="inherit"
@@ -82,7 +84,7 @@ export function ChatGPT() {
                 </IconButton></>}
             />
             <CardContent>
-              <InputMultiline />
+              
             </CardContent>
           </Card>
         </Container>
